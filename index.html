@@ -280,7 +280,7 @@
                     <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 group-hover:w-full transition-all duration-300"></span>
                 </a>
                 <a href="#venue" class="hover:text-gold-600 transition-colors relative group py-1">
-                    Venue & Map
+                    Venues & Maps
                     <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 group-hover:w-full transition-all duration-300"></span>
                 </a>
             </nav>
@@ -360,7 +360,7 @@
                     <i class="far fa-calendar-alt text-gold-600 mr-2"></i> 19th - 21st November 2026
                 </p>
                 <p class="text-sm md:text-base text-peacock-900 mt-2 font-serif font-medium">
-                    <i class="fas fa-map-marker-alt text-gold-600 mr-1"></i> Eldeco Estate One, Panipat
+                    <i class="fas fa-map-marker-alt text-gold-600 mr-1"></i> Pathankot & Panipat
                 </p>
             </div>
 
@@ -565,8 +565,11 @@
                         <p class="text-sm text-peacock-900 font-serif font-bold mb-1">
                             <i class="far fa-calendar-alt text-gold-600 mr-1.5"></i> Thursday, 19th Nov 2026
                         </p>
-                        <p class="text-sm text-peacock-800 font-serif font-semibold mb-3">
+                        <p class="text-sm text-peacock-800 font-serif font-semibold mb-2">
                             <i class="fas fa-clock text-gold-600 mr-1.5"></i> 7:00 P.M.
+                        </p>
+                        <p class="text-xs text-peacock-900 font-serif mb-3">
+                            <i class="fas fa-map-marker-alt text-gold-600 mr-1"></i> Village - Lehroon, Dhar Kalan, Pathankot
                         </p>
                     </div>
                     <div class="pt-3 border-t border-gold-300/40 text-xs text-peacock-800 font-serif italic">
@@ -588,14 +591,17 @@
                         <p class="text-sm text-peacock-900 font-serif font-bold mb-1">
                             <i class="far fa-calendar-alt text-gold-600 mr-1.5"></i> Friday, 20th Nov 2026
                         </p>
+                        <p class="text-xs text-peacock-900 font-serif mb-2">
+                            <i class="fas fa-map-marker-alt text-gold-600 mr-1"></i> Village - Lehroon, Dhar Kalan, Pathankot
+                        </p>
                         
                         <ul class="text-xs text-peacock-950 text-left my-3 space-y-1.5 font-medium bg-ivory-100/80 p-3 rounded-xl border border-gold-300/50">
                             <li class="flex justify-between items-center">
-                                <span><i class="fas fa-ring text-gold-600 mr-1"></i>Haldi & Smoohat:</span>
+                                <span><i class="fas fa-sun text-gold-600 mr-1"></i>Haldi & Smoohat:</span>
                                 <span class="font-bold text-peacock-900">10:00 A.M.</span>
                             </li>
                             <li class="flex justify-between items-center">
-                                <span><i class="fas fa-hand-sparkles text-gold-600 mr-1"></i>Dham:</span>
+                                <span><i class="fas fa-utensils text-gold-600 mr-1"></i>Dham:</span>
                                 <span class="font-bold text-peacock-900">2:00 P.M. - 5:00 P.M.</span>
                             </li>
                         </ul>
@@ -618,6 +624,9 @@
                         
                         <p class="text-sm text-peacock-900 font-serif font-bold mb-1">
                             <i class="far fa-calendar-alt text-gold-600 mr-1.5"></i> Saturday, 21st Nov 2026
+                        </p>
+                        <p class="text-xs text-peacock-900 font-serif mb-2">
+                            <i class="fas fa-map-marker-alt text-gold-600 mr-1"></i> Eldeco Estate One, Near Babarpur Mandi, Panipat (Haryana)
                         </p>
                         
                         <ul class="text-xs text-peacock-950 text-left my-3 space-y-1.5 font-medium bg-ivory-100/80 p-3 rounded-xl border border-gold-300/50">
@@ -648,11 +657,45 @@
         </div>
     </section>
 
-    <!-- Venue & Location Section -->
+    <!-- Venue & Location Section: Pathankot -->
     <section id="venue" class="py-20 px-4 max-w-5xl mx-auto">
         <div class="text-center mb-12 gsap-reveal">
-            <p class="text-xs font-serif uppercase tracking-[0.3em] font-bold text-peacock-900 mb-2">Location & Direction</p>
-            <h2 class="font-cinzel text-3xl md:text-5xl text-peacock-900 font-bold">The Venue</h2>
+            <p class="text-xs font-serif uppercase tracking-[0.3em] font-bold text-peacock-900 mb-2">Location & Direction • Days 1 & 2</p>
+            <h2 class="font-cinzel text-3xl md:text-5xl text-peacock-900 font-bold">Pathankot Venue</h2>
+            <div class="w-24 h-1 bg-gradient-to-r from-gold-400 via-peacock-600 to-gold-400 mx-auto my-3 rounded-full"></div>
+            <p class="text-xl text-peacock-900 font-serif font-bold mt-2">Village - Lehroon</p>
+            <p class="text-sm text-peacock-800">Dhar Kalan, Pathankot</p>
+        </div>
+
+        <div class="gsap-reveal bg-ivory-50 border-2 border-gold-500 rounded-3xl p-4 md:p-6 shadow-2xl royal-glow overflow-hidden tilt-card mb-16">
+            <!-- Embedded Google Map -->
+            <div class="w-full h-96 rounded-2xl overflow-hidden border-2 border-gold-400 shadow-inner">
+                <iframe src="https://maps.google.com/maps?q=32.3967018,75.8996429&z=17&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- Directions Button -->
+            <div class="mt-6 flex flex-col md:flex-row items-center justify-between gap-4 px-2">
+                <div class="text-left">
+                    <p class="text-xs uppercase tracking-widest text-gold-700 font-bold font-serif">Destination Address</p>
+                    <p class="text-sm text-peacock-900 font-semibold">Village - Lehroon, Dhar Kalan, Pathankot</p>
+                </div>
+                <a href="https://www.google.com/maps/place/32%C2%B023'48.1%22N+75%C2%B053'58.7%22E/@32.3967018,75.897068,17z/data=!3m1!4b1!4m4!3m3!8m2!3d32.3967018!4d75.8996429!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn-shimmer-peacock text-ivory-50 font-bold px-8 py-3.5 rounded-full text-xs uppercase tracking-widest flex items-center gap-2 hover:scale-105 transition-transform w-full md:w-auto justify-center shadow-md border border-gold-400/60">
+                    <i class="fas fa-directions text-base text-gold-300"></i> Get Directions in Google Maps
+                </a>
+            </div>
+        </div>
+
+        <!-- Venue & Location Section: Panipat -->
+        <div class="text-center mb-12 gsap-reveal">
+            <p class="text-xs font-serif uppercase tracking-[0.3em] font-bold text-peacock-900 mb-2">Location & Direction • Day 3</p>
+            <h2 class="font-cinzel text-3xl md:text-5xl text-peacock-900 font-bold">Panipat Venue</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-gold-400 via-peacock-600 to-gold-400 mx-auto my-3 rounded-full"></div>
             <p class="text-xl text-peacock-900 font-serif font-bold mt-2">Eldeco Estate One</p>
             <p class="text-sm text-peacock-800">Near Babarpur Mandi, Panipat (Haryana)</p>
@@ -688,7 +731,7 @@
     <footer class="py-12 border-t-2 border-gold-500/40 text-center bg-peacock-950 text-ivory-100 text-xs">
         <div class="max-w-4xl mx-auto px-4">
             <h4 class="font-script text-5xl text-gold-300 mb-3">Hanish Lakhnatia & Anjali Rai</h4>
-            <p class="font-serif tracking-widest uppercase text-[10px] text-gold-200 mb-4">19th - 21st November 2026 • Eldeco Estate One, Panipat</p>
+            <p class="font-serif tracking-widest uppercase text-[10px] text-gold-200 mb-4">19th - 21st November 2026 • Pathankot & Panipat</p>
             <div class="w-20 h-0.5 bg-gold-500/40 mx-auto mb-4"></div>
             <p class="opacity-80">© 2026 With Blessings from the Families</p>
         </div>
@@ -827,18 +870,18 @@
             { src: "photos/2.jpeg", caption: "" },
             { src: "photos/1.jpg", caption: "" },
             { src: "photos/3.jpg", caption: "" },
-            { src: "photos/5.jpg", caption: "" },
+            // { src: "photos/5.jpg", caption: "" },
             { src: "photos/6.jpg", caption: "" },
             { src: "photos/7.jpg", caption: "" },
-            { src: "photos/8.jpg", caption: "" },
+            // { src: "photos/8.jpg", caption: "" },
             { src: "photos/4.jpeg", caption: "" },
             { src: "photos/10.jpeg", caption: "" },
             { src: "photos/14.jpeg", caption: "" },
             { src: "photos/16.jpeg", caption: "" },
-            { src: "photos/17.jpeg", caption: "" },
+            // { src: "photos/17.jpeg", caption: "" },
             { src: "photos/18.jpeg", caption: "" },
             { src: "photos/19.jpeg", caption: "" },
-            { src: "photos/20.jpg", caption: "" },
+            // { src: "photos/20.jpg", caption: "" },
             { src: "photos/21.jpg", caption: "" },
             { src: "photos/22.jpg", caption: "" },
             { src: "photos/23.jpg", caption: "" }
@@ -998,8 +1041,8 @@
         // Calendar Integrations
         function addToGoogleCalendar() {
             const title = encodeURIComponent("Hanish Lakhnatia weds Anjali Rai - Wedding Celebrations");
-            const details = encodeURIComponent("Join us in celebrating the wedding of Hanish Lakhnatia and Anjali Rai. Events run from Nov 19 to Nov 21, 2026 at Eldeco Estate One, Panipat.");
-            const location = encodeURIComponent("Eldeco Estate One, Near Babarpur Mandi, Panipat, Haryana 132104");
+            const details = encodeURIComponent("Join us in celebrating the wedding of Hanish Lakhnatia and Anjali Rai. Events run from Nov 19 to Nov 21, 2026 across Pathankot and Panipat.");
+            const location = encodeURIComponent("Eldeco Estate One, Panipat & Village Lehroon, Pathankot");
             const startTime = "20261119T043000Z"; 
             const endTime = "20261121T203000Z";
 
@@ -1013,8 +1056,8 @@ VERSION:2.0
 PRODID:-//Royal Wedding Invitation//Hanish and Anjali//EN
 BEGIN:VEVENT
 SUMMARY:Hanish Lakhnatia weds Anjali Rai - Wedding Celebrations
-DESCRIPTION:Join us for the wedding celebration of Hanish Lakhnatia & Anjali Rai at Eldeco Estate One, Panipat.
-LOCATION:Eldeco Estate One, Near Babarpur Mandi, Panipat, Haryana 132104
+DESCRIPTION:Join us for the wedding celebration of Hanish Lakhnatia & Anjali Rai at Pathankot and Panipat.
+LOCATION:Eldeco Estate One, Panipat & Village Lehroon, Pathankot
 DTSTART:20261119T043000Z
 DTEND:20261121T203000Z
 STATUS:CONFIRMED
